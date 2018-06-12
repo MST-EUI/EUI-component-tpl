@@ -3,7 +3,6 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
-  mode: 'production',
   entry: {
     index: './src/index.js',
   },
@@ -11,22 +10,17 @@ module.exports = {
     filename: '[name].js',
     path: path.join(__dirname, 'build'),
     publicPath: '/',
-    library: 'hello-world',
     libraryTarget: 'umd',
   },
   externals: {
     React: 'React',
-    RecatDOM: 'react-dom',
   },
   module: {
-    rules: [
+    loaders: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
-        query: {
-          presets: ['react', 'es2015'],
-        },
       },
       {
         test: /\.(css|less)$/,
@@ -51,11 +45,17 @@ module.exports = {
         ],
       },
     ],
+    // postLoaders: [
+    //   {
+    //     test: /\.js$/,
+    //     loaders: ['es3ify-loader'],
+    //   },
+    // ],
   },
   plugins: [
     new CleanWebpackPlugin(['build']),
   ],
   resolve: {
-    extensions: ['*', '.js', '.jsx'],
+    extensions: ['', '.js', '.jsx'],
   },
 };

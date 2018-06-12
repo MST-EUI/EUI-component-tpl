@@ -10,9 +10,9 @@
   "author": "yukap",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.3",
-    "babel-loader": "^7.1.4",
+    "babel-core": "^6.9.0",
+    "babel-eslint": "^6.0.4",
+    "babel-loader": "^6.2.1",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "es3ify-loader": "^0.2.0",
@@ -30,8 +30,7 @@
     "react-dom": "^0.14.9",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
-    "webpack": "^4.12.0",
-    "webpack-cli": "^3.0.4",
-    "webpack-dev-server": "^3.1.4"
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
   }
 }
