@@ -1,0 +1,36 @@
+{
+  "name": "mt-component-template",
+  "version": "0.1.0",
+  "description": "mt component development template",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "mt-tools run test",
+    "build": "webpack --config webpack.config.js --display-error-details --progress --colors"
+  },
+  "author": "yukap",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-eslint": "^6.0.4",
+    "babel-loader": "^6.2.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "es3ify-loader": "^0.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
+    "file-loader": "^1.1.11",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "mocha": "^5.2.0",
+    "node-sass": "^4.9.0",
+    "react": "^0.14.9",
+    "react-dom": "^0.14.9",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
