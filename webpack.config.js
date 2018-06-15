@@ -13,8 +13,8 @@ module.exports = {
     libraryTarget: 'umd',
   },
   externals: {
-    React: 'react',
-    RecatDOM: 'react-dom',
+    'react': 'React',
+    'recat-dom': 'ReactDom',
   },
   module: {
     loaders: [
