@@ -7,7 +7,7 @@
     "test": "mt-tools run test",
     "build": "webpack --config webpack.config.js --display-error-details --progress --colors"
   },
-  "author": "yukap",
+  "author": "mst-eui-team",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.10.4",
