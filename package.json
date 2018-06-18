@@ -4,8 +4,9 @@
   "description": "EUI component development template",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "webpack-dev-server --open --inline --history-api-fallback --config webpack.config.dev.js --hot --progress --port 4000",
-    "dev:ie": "webpack-dev-server --open --history-api-fallback --config webpack.config.dev.js --hot --progress --port 4000",
+    "start": "eui server",
+    "dev": "eui server",
+    "dev:ie": "eui server:ie",
     "build": "eui build",
     "test": "eui test"
   },
