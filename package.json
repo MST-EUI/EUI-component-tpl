@@ -1,13 +1,15 @@
 {
-  "name": "mt-component-template",
+  "name": "eui-component-template",
   "version": "0.1.0",
-  "description": "mt component development template",
-  "main": "build/index.js",
+  "description": "EUI component development template",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "mt-tools run test",
-    "build": "webpack --config webpack.config.js --display-error-details --progress --colors"
+    "dev": "webpack-dev-server --open --inline --history-api-fallback --config webpack.config.dev.js --hot --progress --port 4000",
+    "dev:ie": "webpack-dev-server --open --history-api-fallback --config webpack.config.dev.js --hot --progress --port 4000",
+    "build": "eui build",
+    "test": "eui test"
   },
-  "author": "mst-eui-team",
+  "author": "mistong eui team",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.10.4",

@@ -1,3 +1,4 @@
-import Test from './test';
+import EmptyData from './EmptyData';
 
-module.exports = Test;
+module.exports = EmptyData;
+

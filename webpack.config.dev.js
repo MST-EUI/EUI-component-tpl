@@ -1,21 +1,21 @@
 const path = require('path');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    index: './src/index.js',
+    index: './demo/index.js',
   },
   output: {
     filename: '[name].js',
-    path: path.join(__dirname, 'build'),
+    path: path.join(__dirname, 'dist'),
     publicPath: '/',
-    library: 'hello-world',
+    library: 'demo',
     libraryTarget: 'umd',
   },
   externals: {
     react: 'React',
-    'react-dom': 'ReactDom',
+    'react-dom': 'ReactDOM',
   },
+  cache: true,
   module: {
     loaders: [
       {
@@ -24,26 +24,12 @@ module.exports = {
         loader: 'babel-loader',
       },
       {
-        test: /\.(css|less)$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'less-loader',
-        ],
-      },
-      {
-        test: /\.(sass|scss)$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
-        ],
+        test: /\.(css|sass|scss)$/,
+        loader: 'style-loader!css-loader!sass-loader',
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: [
-          'file-loader',
-        ],
+        loader: 'file-loader',
       },
     ],
     postLoaders: [
@@ -53,9 +39,6 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new CleanWebpackPlugin(['build']),
-  ],
   resolve: {
     extensions: ['', '.js', '.jsx'],
   },
