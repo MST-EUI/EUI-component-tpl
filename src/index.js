@@ -1,4 +1,3 @@
-import EmptyData from './EmptyData';
+import <%- Name %> from './<%- Name %>';
 
-module.exports = EmptyData;
-
+export default <%- Name %>;
