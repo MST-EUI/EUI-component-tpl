@@ -7,7 +7,7 @@ class Demo extends React.Component {
   render() {
     return (
       <div className="demo">
-        <EmptyData />
+        <EmptyData style={{ width: '200px' }} />
       </div>
     );
   }

@@ -1,3 +1,6 @@
-.eui-empty-data {
-  opacity: 0.9;
+$prefix: 'eui-empty-data';
+.#{$prefix} {
+  .#{$prefix}-content {
+    color: #ccc;
+  }
 }
