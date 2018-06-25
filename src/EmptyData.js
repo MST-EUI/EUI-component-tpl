@@ -2,8 +2,8 @@ import React from 'react';
 import classnames from 'classnames';
 import i18n from './i18n';
 
-// import './style/ie8.scss';
-// import './style/EmptyData.scss';
+import './style/ie8.scss';
+import './style/EmptyData.scss';
 
 const { PropTypes } = React;
 const i18nDefault = 'zh-cn';

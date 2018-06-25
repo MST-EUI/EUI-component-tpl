@@ -8,7 +8,7 @@
     "dev": "eui server",
     "dev:ie": "eui server:ie",
     "build": "eui build",
-    "test": "mocha ./tests/ --require babel-register"
+    "test": "mocha ./tests/ --require babel-register --require ignore-styles"
   },
   "author": "mistong eui team",
   "license": "MIT",
@@ -33,6 +33,7 @@
     "eslint-plugin-react": "^7.8.2",
     "expect.js": "^0.3.1",
     "file-loader": "^1.1.11",
+    "ignore-styles": "^5.0.1",
     "jsdom": "^11.11.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
@@ -44,7 +45,8 @@
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "webpack-dev-server": "^1.14.0",
+    "webpack-hot-middleware": "^2.22.2"
   },
   "dependencies": {
     "classnames": "^2.2.6"

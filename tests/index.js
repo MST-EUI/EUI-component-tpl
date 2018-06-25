@@ -35,10 +35,10 @@ describe('EmptyData', () => {
   it('it should render correctly', () => {
     mount(<EmptyData />);
   });
-  it('props', () => {
+  it('props receive correctly', () => {
     const wrapper = mount(<EmptyData style={{ width: '400px' }} >
-      <div className="custom-text">暂无课程信息，请联系您的班主任</div>
-    </EmptyData>);
+      <div className="custom-text">暂无课程信息，请联系你的班主任</div>
+    </EmptyData>); // eslint-disable-line
     expect(wrapper.find('.eui-empty-data-content')).to.have.length(1);
     expect(wrapper.find(EmptyData)).to.have.length(1);
     expect(wrapper.find(EmptyData).find('.custom-text')).to.have.length(1);
