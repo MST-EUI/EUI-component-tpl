@@ -36,10 +36,9 @@ describe('EmptyData', () => {
     mount(<EmptyData />);
   });
   it('props', () => {
-    const wrapper = mount(
-      <EmptyData style={{ width: '400px' }} >
-        <div className="custom-text">暂无课程信息，请联系您的班主任</div>
-      </EmptyData>);
+    const wrapper = mount(<EmptyData style={{ width: '400px' }} >
+      <div className="custom-text">暂无课程信息，请联系您的班主任</div>
+    </EmptyData>);
     expect(wrapper.find('.eui-empty-data-content')).to.have.length(1);
     expect(wrapper.find(EmptyData)).to.have.length(1);
     expect(wrapper.find(EmptyData).find('.custom-text')).to.have.length(1);
