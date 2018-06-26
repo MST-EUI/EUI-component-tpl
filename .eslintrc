@@ -9,6 +9,9 @@
     "mocha": true,
     "node": true
   },
+  "globals": {
+    "expect": true
+  },
   "rules": {
     "import/no-extraneous-dependencies": "off",
     "react/no-unused-prop-types": "off",
