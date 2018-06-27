@@ -11,7 +11,7 @@ test('EmptyData should render correctly', () => {
 
 test('EmptyData props', () => {
   // Render a checkbox with label in the document
-  const emptydata = shallow(<EmptyData />);
+  const emptydata = shallow(<EmptyData className="test" />);
   expect(emptydata.find('.eui-empty-data-content')).toBeTruthy();
 });
 
