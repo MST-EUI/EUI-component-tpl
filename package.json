@@ -8,8 +8,7 @@
     "dev": "eui server",
     "dev:ie": "eui server:ie",
     "build": "eui build",
-    "test": "mocha ./tests/ --require babel-register --require ignore-styles",
-    "jest": "jest",
+    "test": "jest",
     "coverage": "jest --coverage"
   },
   "author": "mistong eui team",
@@ -17,26 +16,24 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/MST-EUI/EUI-component-tpl.git"
-   },
-   "bugs": {
+  },
+  "bugs": {
     "url": "https://github.com/MST-EUI/EUI-component-tpl/issues"
-   },
-   "homepage": "https://github.com/MST-EUI/EUI-component-tpl",
-   "keywords": [
+  },
+  "homepage": "https://github.com/MST-EUI/EUI-component-tpl",
+  "keywords": [
     "react",
     "react-component",
     "eui-EmptyData",
     "eui"
-   ],
+  ],
   "jest": {
     "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
-        "<rootDir>/__mocks__/fileMock.js",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
       "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js"
     }
   },
   "devDependencies": {
-    "assert": "^1.4.1",
     "babel-core": "^6.10.4",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^23.2.0",
@@ -45,9 +42,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.3.13",
-    "babel-register": "^6.26.0",
-    "clean-webpack-plugin": "^0.1.19",
-    "css-loader": "^0.28.11",
+    "css-loader": "^0.26.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-14": "^1.0.5",
     "es3ify-loader": "^0.2.0",
@@ -56,23 +51,15 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.8.2",
-    "expect.js": "^0.3.1",
-    "file-loader": "^1.1.11",
-    "ignore-styles": "^5.0.1",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.13.1",
     "jest": "^23.2.0",
-    "jsdom": "^11.11.0",
-    "less": "^3.0.4",
-    "less-loader": "^4.1.0",
-    "mocha": "^5.2.0",
-    "node-sass": "^4.9.0",
     "react": "^0.14.9",
     "react-addons-test-utils": "^0.14.0",
     "react-dom": "^0.14.9",
     "react-test-renderer": "^16.4.1",
-    "sass-loader": "^7.0.1",
-    "style-loader": "^0.21.0",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0",
     "webpack-hot-middleware": "^2.22.2"
   },
   "dependencies": {
