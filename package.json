@@ -33,6 +33,7 @@
       "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js"
     }
   },
+  "files": ["dist", "src"],
   "devDependencies": {
     "babel-core": "^6.10.4",
     "babel-eslint": "^7.2.3",
