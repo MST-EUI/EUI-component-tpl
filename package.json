@@ -6,7 +6,6 @@
   "scripts": {
     "start": "eui server",
     "dev": "eui server",
-    "dev:ie": "eui server:ie",
     "build": "eui build",
     "test": "jest",
     "coverage": "jest --coverage"
@@ -33,7 +32,10 @@
       "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js"
     }
   },
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "devDependencies": {
     "babel-core": "^6.10.4",
     "babel-eslint": "^7.2.3",
