@@ -1,15 +1,17 @@
 {
-  "extends": "airbnb",
+  "extends": ["airbnb", "plugin:jest/recommended"],
   "parser": "babel-eslint",
   "plugins": [
-    "react"
+    "react",
+    "jest"
   ],
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "jest/globals": true
   },
   "globals": {
-    "expect": true
+
   },
   "rules": {
     "import/no-extraneous-dependencies": "off",
