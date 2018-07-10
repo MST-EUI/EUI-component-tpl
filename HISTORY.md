@@ -3,7 +3,7 @@
 
 ## 0.1.1
 
-* `CHANGED` add
+* `CHANGED` add eui-css for default
 
 ## 0.1.0
 
