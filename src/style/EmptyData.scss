@@ -1,3 +1,5 @@
+@import '../../node_modules/@mistong/eui-css/variable.scss';
+
 $prefix: 'eui-empty-data';
 .#{$prefix} {
   text-align: center;
@@ -10,7 +12,7 @@ $prefix: 'eui-empty-data';
     background-size: 100% 100%;
   }
   .#{$prefix}-content {
-    color: rgba(0, 0, 0, .4);
+    color: $brand-primary;
     margin-top: 5px;
   }
 }
