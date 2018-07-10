@@ -9,6 +9,8 @@ const { PropTypes } = React;
 const i18nDefault = 'zh-cn';
 
 export default class EmptyData extends React.Component {
+  static displayName = 'eui-empty-data';
+
   static propTypes = {
     children: PropTypes.any,
     lang: PropTypes.string,
