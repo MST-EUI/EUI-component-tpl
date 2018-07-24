@@ -38,7 +38,7 @@
     "src"
   ],
   "devDependencies": {
-    "@mistong/eui-cli": "^0.1.4",
+    "@mistong/eui-cli": "^0.1.6",
     "@mistong/eui-css": "^0.1.2",
     "babel-core": "^6.10.4",
     "babel-eslint": "^7.2.3",
