@@ -1,7 +1,7 @@
 {
   "name": "eui-component-template",
-  "version": "0.1.4",
-  "description": "EUI component development template",
+  "version": "0.1.0",
+  "description": "EUI component template",
   "main": "dist/index.js",
   "scripts": {
     "start": "eui server",
@@ -15,7 +15,7 @@
     "commitmsg": "commitlint -E GIT_PARAMS",
     "version": "npm run changelog && git add CHANGELOG.md",
     "postversion": "git push && git push --tags",
-    "prepare": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "author": "mistong eui team",
   "license": "MIT",
@@ -30,7 +30,6 @@
   "keywords": [
     "react",
     "react-component",
-    "eui-EmptyData",
     "eui"
   ],
   "jest": {
