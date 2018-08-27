@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import EmptyData from '../src/';
+import EmptyData from '../src/index';
+
 import './demo.scss';
 
 class Demo extends React.Component {
