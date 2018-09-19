@@ -1,3 +1,14 @@
+<a name="0.1.6"></a>
+## [0.1.6](https://github.com/MST-EUI/EUI-component-tpl/compare/v0.1.5...v0.1.6) (2018-09-19)
+
+
+### Bug Fixes
+
+* fixed [@mistong](https://github.com/mistong)/eui absent issue ([0179483](https://github.com/MST-EUI/EUI-component-tpl/commit/0179483))
+* fixed unit test issue(depndencies missing) for jest ([0027b47](https://github.com/MST-EUI/EUI-component-tpl/commit/0027b47))
+
+
+
 <a name="0.1.5"></a>
 ## [0.1.5](https://github.com/MST-EUI/EUI-component-tpl/compare/v1.0.4...v0.1.5) (2018-08-27)
 
