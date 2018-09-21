@@ -2,8 +2,5 @@
 
 ## Usage
 
-```
-npm i
-npm start
-```
+[使用文档](https://github.com/MST-EUI/eui-developing-guideline)
 
