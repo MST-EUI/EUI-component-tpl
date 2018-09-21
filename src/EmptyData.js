@@ -54,3 +54,4 @@ export default class EmptyData extends React.Component {
     );
   }
 }
+
