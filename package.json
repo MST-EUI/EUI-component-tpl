@@ -8,6 +8,7 @@
     "dev": "eui server",
     "build": "eui build",
     "test": "eui test",
+    "commit": "git-cz",
     "coverage": "eui test --coverage",
     "lint": "eslint --fix src/*",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
