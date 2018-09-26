@@ -1,3 +1,8 @@
+<a name="0.1.11"></a>
+## [0.1.11](https://github.com/MST-EUI/EUI-component-tpl/compare/v0.1.10...v0.1.11) (2018-09-26)
+
+
+
 <a name="0.1.10"></a>
 ## [0.1.10](https://github.com/MST-EUI/EUI-component-tpl/compare/v0.1.8...v0.1.10) (2018-09-21)
 
