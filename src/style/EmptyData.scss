@@ -12,7 +12,7 @@ $prefix: 'eui-empty-data';
     background-size: 100% 100%;
   }
   .#{$prefix}-content {
-    color: $brand-primary;
+    color: $text-thirdly-color; /* variable come from ../../node_modules/@mistong/eui-css/variable.scss */
     margin-top: 5px;
   }
 }
