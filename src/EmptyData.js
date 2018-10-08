@@ -5,53 +5,70 @@ import i18n from './i18n';
 import './style/index.scss';
 
 const { PropTypes } = React;
+const i18nDefault = 'zh-cn';
 
 export default class EmptyData extends React.Component {
   static displayName = 'eui-empty-data';
 
   static propTypes = {
-    locale: PropTypes.string,
+    children: PropTypes.any,
+    lang: PropTypes.string,
     icon: PropTypes.string,
+    iconSmall: PropTypes.string,
+    iconLarge: PropTypes.string,
     prefixCls: PropTypes.string,
     theme: PropTypes.string,
     style: PropTypes.object,
     className: PropTypes.string,
+    type: PropTypes.oneOf(['small', 'medium', 'large']),
   };
 
   static defaultProps = {
-    locale: 'zh-cn',
-    icon: '//cdn.ewt360.com/ewt360/images/images/searchno.jpg?t=201806222330',
+    children: i18n[i18nDefault].description,
+    lang: i18nDefault,
+    iconSmall: 'https://yukap6.github.io/images/empty.png',
+    icon: 'https://yukap6.github.io/images/empty.png',
+    iconLarge: 'https://yukap6.github.io/images/empty.png',
     prefixCls: 'eui-empty-data',
     theme: 'default',
     style: {},
     className: '',
+    type: 'medium',
   };
 
   render() {
     const {
       prefixCls,
-      locale,
+      children,
       icon,
+      iconSmall,
+      iconLarge,
       style,
+      type,
       className,
     } = this.props;
 
+    const iconMap = {
+      small: iconSmall,
+      medium: icon,
+      large: iconLarge,
+    };
+
     return (
       <div
-        className={classnames({ [prefixCls]: true }, { [className]: !!className })}
+        className={classnames({ [`${prefixCls} ${type}`]: true }, { [className]: !!className })}
         style={style}
       >
         <div
           className={`${prefixCls}-icon`}
           style={{
-            backgroundImage: `url(${icon})`,
+            backgroundImage: `url(${iconMap[type]})`,
           }}
         />
         <div className={`${prefixCls}-content`}>
-          {i18n[locale].description}
+          {children}
         </div>
       </div>
     );
   }
 }
-
