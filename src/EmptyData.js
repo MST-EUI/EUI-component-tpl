@@ -1,7 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
-import i18n from './i18n';
 
+import i18n from './i18n';
 import './style/index.scss';
 
 const { PropTypes } = React;

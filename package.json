@@ -35,11 +35,13 @@
   ],
   "files": [
     "dist",
-    "src"
+    "src",
+    "demo"
   ],
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
+    "@mistong/eui": "^0.1.7",
     "@mistong/eui-cli": "latest",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^23.6.0",
