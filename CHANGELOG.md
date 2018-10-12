@@ -1,3 +1,13 @@
+<a name="0.1.16"></a>
+## [0.1.16](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.15...v0.1.16) (2018-10-12)
+
+
+### Features
+
+* demo update ([69db8fe](https://github.com/MST-EUI/eui-component-tpl/commit/69db8fe))
+
+
+
 <a name="0.1.15"></a>
 ## [0.1.15](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.14...v0.1.15) (2018-10-12)
 
