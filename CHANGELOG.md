@@ -1,3 +1,13 @@
+<a name="0.1.17"></a>
+## [0.1.17](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.16...v0.1.17) (2018-10-15)
+
+
+### Bug Fixes
+
+* add some missing dependecies in ([5dc335b](https://github.com/MST-EUI/eui-component-tpl/commit/5dc335b))
+
+
+
 <a name="0.1.16"></a>
 ## [0.1.16](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.15...v0.1.16) (2018-10-12)
 
