@@ -1,6 +1,6 @@
 {
   "name": "eui-component-template",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "description": "EUI component template",
   "main": "dist/index.js",
   "scripts": {

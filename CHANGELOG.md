@@ -1,3 +1,13 @@
+<a name="0.1.18"></a>
+## [0.1.18](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.17...v0.1.18) (2018-10-18)
+
+
+### Features
+
+* PropTypes from 'prop-types' ([21f42eb](https://github.com/MST-EUI/eui-component-tpl/commit/21f42eb))
+
+
+
 <a name="0.1.17"></a>
 ## [0.1.17](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.16...v0.1.17) (2018-10-15)
 
