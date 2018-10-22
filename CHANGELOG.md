@@ -1,3 +1,13 @@
+<a name="0.1.19"></a>
+## [0.1.19](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.18...v0.1.19) (2018-10-22)
+
+
+### Bug Fixes
+
+* eui-cli version update for babel-config error ([c5acc7e](https://github.com/MST-EUI/eui-component-tpl/commit/c5acc7e))
+
+
+
 <a name="0.1.18"></a>
 ## [0.1.18](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.17...v0.1.18) (2018-10-18)
 
