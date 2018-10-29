@@ -78,7 +78,7 @@ import { EmptyData } from '@mistong/eui';
               <td>icon</td>
               <td>自定义图片</td>
               <td>string</td>
-              <td>https://yukap6.github.io/images/empty.png</td>
+              <td>http://web.ewt360.com/common/eui/images/empty.png</td>
             </tr>
             <tr>
               <td>lang</td>

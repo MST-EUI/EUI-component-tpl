@@ -26,9 +26,9 @@ export default class EmptyData extends React.Component {
   static defaultProps = {
     children: i18n[i18nDefault].description,
     lang: i18nDefault,
-    iconSmall: 'https://yukap6.github.io/images/empty.png',
-    icon: 'https://yukap6.github.io/images/empty.png',
-    iconLarge: 'https://yukap6.github.io/images/empty.png',
+    iconSmall: '//web.ewt360.com/common/eui/images/empty.png',
+    icon: '//web.ewt360.com/common/eui/images/empty.png',
+    iconLarge: '//web.ewt360.com/common/eui/images/empty.png',
     prefixCls: 'eui-empty-data',
     theme: 'default',
     style: {},
