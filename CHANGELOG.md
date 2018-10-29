@@ -1,3 +1,13 @@
+<a name="0.1.20"></a>
+## [0.1.20](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.19...v0.1.20) (2018-10-29)
+
+
+### Bug Fixes
+
+* 🐛 fixed git-cz dep to local ([993bc87](https://github.com/MST-EUI/eui-component-tpl/commit/993bc87))
+
+
+
 <a name="0.1.19"></a>
 ## [0.1.19](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.18...v0.1.19) (2018-10-22)
 
