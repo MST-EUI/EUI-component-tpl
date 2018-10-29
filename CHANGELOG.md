@@ -1,3 +1,13 @@
+<a name="0.1.21"></a>
+## [0.1.21](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.20...v0.1.21) (2018-10-29)
+
+
+### Features
+
+* 🎸 update dependeciens for tpl & eui-cli ([0feabfd](https://github.com/MST-EUI/eui-component-tpl/commit/0feabfd))
+
+
+
 <a name="0.1.20"></a>
 ## [0.1.20](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.19...v0.1.20) (2018-10-29)
 
