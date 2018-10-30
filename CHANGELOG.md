@@ -1,3 +1,13 @@
+<a name="0.1.22"></a>
+## [0.1.22](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.21...v0.1.22) (2018-10-30)
+
+
+### Bug Fixes
+
+* 🐛 fixed ie8 crashed issue ([91e87ab](https://github.com/MST-EUI/eui-component-tpl/commit/91e87ab))
+
+
+
 <a name="0.1.21"></a>
 ## [0.1.21](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.20...v0.1.21) (2018-10-29)
 
