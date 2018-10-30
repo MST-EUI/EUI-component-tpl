@@ -4,14 +4,8 @@
 */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {
-  Code,
-  Demo,
-} from '@mistong/eui';
-
-/* placeholder begin eui style */
-import '@mistong/eui/dist/index.css';
-/* placeholder end eui style */
+import Code from '@mistong/eui-code';
+import Demo from '@mistong/eui-demo';
 
 /* placeholder begin src */
 import EmptyData from '../src';
@@ -37,6 +31,7 @@ import { EmptyData } from '@mistong/eui';
 
 <EmptyData style={{ width: '200px' }} type="large" />
 `;
+
     return (
       <Demo>
         <h2>EmptyData 组件</h2>
