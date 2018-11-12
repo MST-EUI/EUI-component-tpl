@@ -1,3 +1,13 @@
+<a name="0.1.23"></a>
+## [0.1.23](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.22...v0.1.23) (2018-11-12)
+
+
+### Features
+
+* 🎸 eui-demo version update for style conflicts ([0257327](https://github.com/MST-EUI/eui-component-tpl/commit/0257327))
+
+
+
 <a name="0.1.22"></a>
 ## [0.1.22](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.21...v0.1.22) (2018-10-30)
 
