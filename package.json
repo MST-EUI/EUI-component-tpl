@@ -42,7 +42,7 @@
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
     "@mistong/eui-code": "^0.1.10",
-    "@mistong/eui-demo": "^0.1.6",
+    "@mistong/eui-demo": "^0.1.8",
     "babel-eslint": "^7.2.3",
     "commitlint": "^7.2.1",
     "console-polyfill": "^0.3.0",
