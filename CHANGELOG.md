@@ -1,3 +1,13 @@
+<a name="0.1.25"></a>
+## [0.1.25](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.24...v0.1.25) (2019-01-14)
+
+
+### Features
+
+* 🎸 eui-css version update ([f957eca](https://github.com/MST-EUI/eui-component-tpl/commit/f957eca))
+
+
+
 <a name="0.1.24"></a>
 ## [0.1.24](https://github.com/MST-EUI/eui-component-tpl/compare/v0.1.23...v0.1.24) (2018-11-12)
 
